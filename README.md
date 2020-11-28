@@ -4,25 +4,25 @@
 ## <p align="center">Table of Contents</p>
 
 - __[Markdown](#markdown)__
-  - [Links](#markdown.links)
-
+  - [Links](#markdown.links)  
+  
 - __[Linux](#linux)__
   - [Commands](#linux.commands)
   - [Links](#linux.links)  
-
-__- [GIT](#git)__
+  
+- __[GIT](#git)__
   - [Installation](#git.install)
   - [Commands](#git.commands)
   - [Workflow](#docker.workflow)
   - [Links](#git.links)
 
-- [Docker](#docker)
+- __[Docker](#docker)__
   - [Installation](#docker.install)
   - [Commands](#docker.commands)
   - [Workflow](#docker.workflow)
   - [Links](#docker.links)
 
-- [PostgreSQL](#postgres)
+- __[PostgreSQL](#postgres)__
   - [Installation](#postgres.install)
   - [Commands](#postgres.commands)
   - [Workflow](#postgres.workflow)
