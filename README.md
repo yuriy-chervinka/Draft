@@ -164,7 +164,8 @@ __2. Install Docker Engine__
 </br>
 
 ### Links <a name="docker.links"></a>
-- [official site](https://docs.docker.com/ "Title"){:target="_blank"}
+- <a href="https://docs.docker.com/" target="_blank">docs.docker.com</a> - official site
+
 
 
 
