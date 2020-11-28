@@ -3,14 +3,14 @@
 
 ## <p align="center">Table of Contents</p>
 
-- [Markdown](#markdown)
+- __[Markdown](#markdown)__
   - [Links](#markdown.links)
 
-- [Linux](#linux)
+- __[Linux](#linux)__
   - [Commands](#linux.commands)
-  - [Links](#linux.links)
+  - [Links](#linux.links)  
 
-- [GIT](#git)
+__- [GIT](#git)__
   - [Installation](#git.install)
   - [Commands](#git.commands)
   - [Workflow](#docker.workflow)
