@@ -45,26 +45,37 @@
 </br>
 
 ### GIT <a name="git"></a>
+
 </br>
 
 </br>
+
 #### Installation <a name="git.install"></a>
+
 </br>
 
 </br>
+
 #### Commands <a name="git.commands"></a>
-</br>
-
-
 
 </br>
+
+
+
+</br>
+
 --------------------------------------------------------------------------------
+
 </br>
+
 ### Docker <a name="docker"></a>
+
 </br>
 
 </br>
+
 #### Installation <a name="docker.install"></a>  
+
 </br>
 
 __1. Set up the repository__  
@@ -115,28 +126,39 @@ __2. Install Docker Engine__
 
 
 </br>
+
 #### Commands <a name="docker.commands"></a>
-</br>
-
-
 
 </br>
+
+
+
+</br>
+
 --------------------------------------------------------------------------------
+
 </br>
+
 ### PostgreSQL <a name="postgres"></a>
+
 </br>
 
 </br>
+
 #### Installation <a name="postgres.install"></a>
+
 </br>
 
 </br>
+
 #### Commands <a name="postgres.commands"></a>
-</br>
-
-
 
 </br>
+
+
+
+</br>
+
 --------------------------------------------------------------------------------
 
 
