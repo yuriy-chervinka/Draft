@@ -53,18 +53,18 @@
 
 
 #### Installation <a name="docker.install"></a>  
+1. Set up the repository  
+```
+$ sudo apt update
+$ sudo apt install apt-transport-https ca-certificates curl gnupg-agent software-properties-common
+```  
+and text
 
-
-add some text here.
-More text.  
-New paragraph.  
 
 
 #### Commands <a name="docker.commands"></a>
 
 
-Once more.  
-Some text.  
 
 
 </br>
