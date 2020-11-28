@@ -17,7 +17,6 @@
 
 - [Docker](#docker)
   - [Installation](#docker.install)
-  - [Post-installation steps](#docker.postinstall)
   - [Commands](#docker.commands)
   - [Links](#docker.links)
 
@@ -154,40 +153,46 @@ __2. Install Docker Engine__
   This message shows that your installation appears to be working correctly.
   ...
   ```  
-
-
-</br>
-
-### Post-installation steps <a name="docker.postinstall"></a>  
   
-__1. Manage Docker as a non-root user__  
+__3. Post-installation steps__  
+  
+3.1. Manage Docker as a non-root user:  
 The Docker daemon binds to a Unix socket instead of a TCP port. By default that Unix socket is owned by the user `root` and other users can only access it using `sudo`. The Docker daemon always runs as the `root` user.  
 If you don’t want to preface the `docker` command with `sudo`, create a Unix group called `docker` and add users to it. When the Docker daemon starts, it creates a Unix socket accessible by members of the `docker` group.  
-
-1.1. Create a `docker` group, and add your user to the `docker` group:  
+  
+Create a `docker` group, and add your user to the `docker` group:  
   ```
   $ sudo groupadd docker
   $ sudo usermod -aG docker $USER
   ```  
-1.2. Log out and log in, so that your group membership is re-evaluated. Or run the following command to activate the changes to groups:  
+Log out and log in, so that your group membership is re-evaluated. Or run the following command to activate the changes to groups:  
   ```
   $ newgrp docker
   ```  
-1.3. Verify that you can run docker commands without sudo:  
+Verify that you can run docker commands without sudo:  
   ```
   $ docker run hello-world
   Hello from Docker!
   This message shows that your installation appears to be working correctly.
   ...
   ```  
+  
+3.2. Configure Docker to start on boot:  
+   ```
+  $ sudo systemctl enable docker
+  ```  
 
 
 
 
 </br>
 
-### Commands <a name="docker.commands"></a>
-
+### Commands <a name="docker.commands"></a>  
+  
+- check the version:  
+`$ docker --version`  
+- create and run container from an image:  
+`$ docker run [OPTIONS] IMAGE [COMMAND] [ARG...]`  
 
 
 </br>
