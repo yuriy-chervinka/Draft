@@ -17,6 +17,7 @@
 
 - [Docker](#docker)
   - [Installation](#docker.install)
+  - [Post-installation steps](#docker.postinstall)
   - [Commands](#docker.commands)
   - [Links](#docker.links)
 
@@ -157,6 +158,30 @@ __2. Install Docker Engine__
 
 </br>
 
+### Post-installation steps <a name="docker.postinstall"></a>  
+  
+__1. Manage Docker as a non-root user__  
+  The Docker daemon binds to a Unix socket instead of a TCP port. By default that Unix socket is owned by the user `root` and other users can only access it using `sudo`. The Docker daemon always runs as the `root` user.  
+If you don’t want to preface the `docker` command with `sudo`, create a Unix group called `docker` and add users to it. When the Docker daemon starts, it creates a Unix socket accessible by members of the `docker` group.  
+1.1. Create a `docker` group, and add your user to the `docker` group:  
+  ```
+  $ sudo groupadd docker
+  $ sudo usermod -aG docker $USER
+  ```  
+1.2. Log out and log in, so that your group membership is re-evaluated. Or run the following command to activate the changes to groups:  
+  ```
+  $ newgrp docker
+  ```  
+1.3. Verify that you can run docker commands without sudo:  
+  ```
+  $ docker run hello-world
+  ```  
+
+
+
+
+</br>
+
 ### Commands <a name="docker.commands"></a>
 
 
@@ -165,7 +190,6 @@ __2. Install Docker Engine__
 
 ### Links <a name="docker.links"></a>
 - <a href="https://docs.docker.com/" target="_blank">docs.docker.com</a> - official site
-
 
 
 
