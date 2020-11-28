@@ -205,7 +205,22 @@ Verify that you can run docker commands without sudo:
   `$ docker image push`  
   - remove image:  
   `$ docker image rm`  
-  
+- manage containers:  
+`$ docker container COMMAND`  
+  - list containers:  
+  `$ docker container ls`  
+  - start container:  
+  `$ docker container start`  
+  - stop container:  
+  `$ docker container stop`  
+  - remove container:  
+  `$ docker container rm`  
+- list containers:  
+`$ docker ps [OPTIONS]`  
+  - list all:  
+  `$ docker ps -a`  
+
+
   
 </br>
 
