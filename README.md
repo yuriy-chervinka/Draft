@@ -195,16 +195,16 @@ Verify that you can run docker commands without sudo:
 `$ docker run [OPTIONS] IMAGE [COMMAND] [ARG...]`  
 - manage images:  
 `$ docker image COMMAND`  
-- list images:  
-`$ docker image ls`  
-- build an image from docker file:  
-`$ docker image build`  
-- pull an image from registry:  
-`$ docker image pull`  
-- push an image to registry:  
-`$ docker image push`  
-- remove image:  
-`$ docker image rm`  
+  - list images:  
+  `$ docker image ls`  
+  - build an image from docker file:  
+  `$ docker image build`  
+  - pull an image from registry:  
+  `$ docker image pull`  
+  - push an image to registry:  
+  `$ docker image push`  
+  - remove image:  
+  `$ docker image rm`  
   
   
 </br>
