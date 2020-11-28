@@ -13,16 +13,19 @@
 - [GIT](#git)
   - [Installation](#git.install)
   - [Commands](#git.commands)
+  - [Workflow](#docker.workflow)
   - [Links](#git.links)
 
 - [Docker](#docker)
   - [Installation](#docker.install)
   - [Commands](#docker.commands)
+  - [Workflow](#docker.workflow)
   - [Links](#docker.links)
 
 - [PostgreSQL](#postgres)
   - [Installation](#postgres.install)
   - [Commands](#postgres.commands)
+  - [Workflow](#postgres.workflow)
   - [Links](#postgres.links)
 
 
@@ -83,6 +86,13 @@
 </br>
 
 ### Commands <a name="git.commands"></a>
+
+
+
+</br>
+
+### Workflow <a name="git.workflow"></a>
+
 
 
 
@@ -187,7 +197,7 @@ Verify that you can run docker commands without sudo:
 
 </br>
 
-### Commands <a name="docker.commands" ></a>  <a href="https://docs.docker.com/engine/reference/commandline/docker/" target="_blank">documentation</a>  
+### Commands <a name="docker.commands" ></a>  <a href="https://docs.docker.com/engine/reference/commandline/docker/" target="_blank"> (documentation)</a>  
   
 - check the version:  
 `$ docker --version`  
@@ -221,6 +231,14 @@ Verify that you can run docker commands without sudo:
   `$ docker ps -a`  
 
 
+
+</br>
+
+### Workflow <a name="docker.workflow"></a>
+
+
+
+
   
 </br>
 
@@ -252,6 +270,14 @@ Verify that you can run docker commands without sudo:
 </br>
 
 ### Commands <a name="postgres.commands"></a>
+
+
+
+
+</br>
+
+### Workflow <a name="postgres.workflow"></a>
+
 
 
 
