@@ -187,7 +187,8 @@ Verify that you can run docker commands without sudo:
 
 </br>
 
-### Commands <a href="https://docs.docker.com/engine/reference/commandline/docker/" target="_blank" name="docker.commands" ></a>  
+### Commands <a name="docker.commands" ></a>  
+<a href="https://docs.docker.com/engine/reference/commandline/docker/" target="_blank">Commands doc</a>  
   
 - check the version:  
 `$ docker --version`  
