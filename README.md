@@ -1,16 +1,16 @@
 # <p align="center">IT</p>
 
+</br>
 
 ## <p align="center">Table of Contents</p>
 
 - __[Markdown](#markdown)__
-  - [Links](#markdown.links)  
-  
-  
+  - [Links](#markdown.links)
+
 - __[Linux](#linux)__
   - [Commands](#linux.commands)
-  - [Links](#linux.links)  
-  
+  - [Links](#linux.links)
+
 - __[GIT](#git)__
   - [Installation](#git.install)
   - [Commands](#git.commands)
