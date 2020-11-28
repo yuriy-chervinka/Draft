@@ -30,7 +30,7 @@
 
 
 <div style="page-break-after: always; break-after: page;"></div>
---------------------------------------------------------------------------------
+
 
 ### GIT <a name="git"></a>
 
@@ -43,7 +43,7 @@
 
 
 <div style="page-break-after: always; break-after: page;"></div>
---------------------------------------------------------------------------------
+
 
 ### Docker <a name="docker"></a>
 
