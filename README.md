@@ -19,42 +19,46 @@
   - [Commands](#postgres.commands)
 
 
-
+</br>
 --------------------------------------------------------------------------------
-
+</br>
 ### Linux <a name="linux"></a>
+</br>
 
-
+</br>
 #### Commands <a name="linux.commands"></a>
+</br>
 
 
 
 
 </br>
-
 --------------------------------------------------------------------------------
-
+</br>
 ### GIT <a name="git"></a>
+</br>
 
-
+</br>
 #### Installation <a name="git.install"></a>
+</br>
 
-
+</br>
 #### Commands <a name="git.commands"></a>
-
+</br>
 
 
 
 </br>
-
 --------------------------------------------------------------------------------
-
+</br>
 ### Docker <a name="docker"></a>
+</br>
 
-
+</br>
 #### Installation <a name="docker.install"></a>  
-  
-1. Set up the repository  
+</br>
+
+__1. Set up the repository__  
   
 1.1. Update the apt package index, and install packages to allow apt to use a repository over HTTPS:
   ```
@@ -79,7 +83,8 @@
   $ sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
   ```  
 
-2. Install Docker Engine  
+__2. Install Docker Engine__  
+  
 2.1. Update the apt package index, and install the latest version of Docker Engine and containerd:
   ```
   $ sudo apt update
@@ -100,29 +105,29 @@
   ```  
 
 
-
+</br>
 #### Commands <a name="docker.commands"></a>
-
+</br>
 
 
 
 </br>
-
 --------------------------------------------------------------------------------
-
+</br>
 ### PostgreSQL <a name="postgres"></a>
+</br>
 
-
+</br>
 #### Installation <a name="postgres.install"></a>
+</br>
 
-
+</br>
 #### Commands <a name="postgres.commands"></a>
-
+</br>
 
 
 
 </br>
-
 --------------------------------------------------------------------------------
 
 
