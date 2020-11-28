@@ -163,6 +163,7 @@ __2. Install Docker Engine__
 __1. Manage Docker as a non-root user__  
   The Docker daemon binds to a Unix socket instead of a TCP port. By default that Unix socket is owned by the user `root` and other users can only access it using `sudo`. The Docker daemon always runs as the `root` user.  
 If you don’t want to preface the `docker` command with `sudo`, create a Unix group called `docker` and add users to it. When the Docker daemon starts, it creates a Unix socket accessible by members of the `docker` group.  
+
 1.1. Create a `docker` group, and add your user to the `docker` group:  
   ```
   $ sudo groupadd docker
@@ -175,6 +176,9 @@ If you don’t want to preface the `docker` command with `sudo`, create a Unix g
 1.3. Verify that you can run docker commands without sudo:  
   ```
   $ docker run hello-world
+  Hello from Docker!
+  This message shows that your installation appears to be working correctly.
+  ...
   ```  
 
 
