@@ -1,4 +1,4 @@
-# IT
+# ->IT<-
 
 
 ## Table of Contents
@@ -25,35 +25,13 @@
 
 </br>
 
-### Linux <a name="linux"></a>
+## Linux <a name="linux"></a>
 
 
 </br>
 
-#### Commands <a name="linux.commands"></a>
+### Commands <a name="linux.commands"></a>
 
-
-
-
-
-</br>
-
---------------------------------------------------------------------------------
-
-</br>
-
-### GIT <a name="git"></a>
-
-
-</br>
-
-#### Installation <a name="git.install"></a>
-
-
-
-</br>
-
-#### Commands <a name="git.commands"></a>
 
 
 
@@ -64,12 +42,34 @@
 
 </br>
 
-### Docker <a name="docker"></a>
+## GIT <a name="git"></a>
 
 
 </br>
 
-#### Installation <a name="docker.install"></a>  
+### Installation <a name="git.install"></a>
+
+
+
+</br>
+
+### Commands <a name="git.commands"></a>
+
+
+
+
+</br>
+
+--------------------------------------------------------------------------------
+
+</br>
+
+## Docker <a name="docker"></a>
+
+
+</br>
+
+### Installation <a name="docker.install"></a>  
   
 __1. Set up the repository__  
   
@@ -120,7 +120,7 @@ __2. Install Docker Engine__
 
 </br>
 
-#### Commands <a name="docker.commands"></a>
+### Commands <a name="docker.commands"></a>
 
 
 
@@ -132,12 +132,12 @@ __2. Install Docker Engine__
 
 </br>
 
-### PostgreSQL <a name="postgres"></a>
+## PostgreSQL <a name="postgres"></a>
 
 
 </br>
 
-#### Installation <a name="postgres.install"></a>
+### Installation <a name="postgres.install"></a>
 
 
 
@@ -145,7 +145,7 @@ __2. Install Docker Engine__
 
 </br>
 
-#### Commands <a name="postgres.commands"></a>
+### Commands <a name="postgres.commands"></a>
 
 
 
