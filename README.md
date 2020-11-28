@@ -1,7 +1,7 @@
 # <p align="center">IT</p>
 
 
-## Table of Contents
+## <p align="center">Table of Contents</p>
 
 - [Linux](#linux)
   - [Commands](#linux.commands)
@@ -25,7 +25,7 @@
 
 </br>
 
-## Linux <a name="linux"></a>
+## <p align="center">Linux</p> <a name="linux"></a>
 
 
 </br>
@@ -42,7 +42,7 @@
 
 </br>
 
-## GIT <a name="git"></a>
+## <p align="center">GIT</p> <a name="git"></a>
 
 
 </br>
@@ -64,7 +64,7 @@
 
 </br>
 
-## Docker <a name="docker"></a>
+## <p align="center">Docker</p> <a name="docker"></a>
 
 
 </br>
@@ -132,7 +132,7 @@ __2. Install Docker Engine__
 
 </br>
 
-## PostgreSQL <a name="postgres"></a>
+## <p align="center">PostgreSQL</p> <a name="postgres"></a>
 
 
 </br>
