@@ -15,7 +15,7 @@
   - [Commands](#docker.commands)
 
 - [PostgreSQL](#postgres)
-  -[Installation](#postgres.install)
+  - [Installation](#postgres.install)
   - [Commands](#postgres.commands)
 
 
