@@ -187,14 +187,26 @@ Verify that you can run docker commands without sudo:
 
 </br>
 
-### Commands <a name="docker.commands"></a>  
+### Commands <a name="docker.commands" href="https://docs.docker.com/engine/reference/commandline/docker/" target="_blank"></a>  
   
 - check the version:  
 `$ docker --version`  
 - create and run container from an image:  
 `$ docker run [OPTIONS] IMAGE [COMMAND] [ARG...]`  
-
-
+- manage images:  
+`$ docker image COMMAND`  
+- list images:  
+`$ docker image ls`  
+- build an image from docker file:  
+`$ docker image build`  
+- pull an image from registry:  
+`$ docker image pull`  
+- push an image to registry:  
+`$ docker image push`  
+- remove image:  
+`$ docker image rm`  
+  
+  
 </br>
 
 ### Links <a name="docker.links"></a>
