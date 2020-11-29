@@ -360,18 +360,30 @@ By default, PostgreSQL Server will start up automatically each time system boots
   ```
   $ sudo systemctl disable postgresql
   ```  
-  To disable start on boot:  
+  To enable start on boot:  
   ```
   $ sudo systemctl enable postgresql
   ```  
 By default, PostgreSQL Server only listens on local loopback interface `127.0.0.1`.  
 To change IP adress(es):  
-- open file `/etc/postgresql/13/main/postgresql.conf`  
-- in section `CONNECTIONS AND AUTHENTICATION` uncomment and appropriately modify line `listen_addresses = `  
-- save file and restart postgreSQL:  
+- modify file `/etc/postgresql/13/main/postgresql.conf`:  
+  - in section `CONNECTIONS AND AUTHENTICATION` uncomment and appropriately modify line `listen_addresses = ` ('listen_addresses = * ' for all IPs)  
+  - save file and restart postgreSQL:  
+    ```
+    $ sudo systemctl restart postgresql
+    ```  
+- modify file `/etc/postgresql/13/main/pg_hba.conf` which will allow incoming client connections to all databases and users:  
+  - add line `host    all    all    0.0.0.0/0  md5` (to open all IPs):  
+    ```
+    $ sudo bash -c "echo host    all          all            0.0.0.0/0  md5 >> /etc/postgresql/13/main/pg_hba.conf"
+    ```  
+- open port 5432 in firewall to any incoming TCP traffic:  
   ```
-  $ sudo systemctl restart postgresql
+  $ sudo ufw allow from any to any port 5432 proto tcp
+  Rule added
+  Rule added (v6)
   ```  
+
 
 
 
