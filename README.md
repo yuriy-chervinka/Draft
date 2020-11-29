@@ -348,6 +348,7 @@ __2. Install__
 __3. Post-installation steps__  
   
 3.1. Server configuration:  
+
 Check if server is listening for incoming connection on port 5432:  
   ```
   $ ss -nlt
@@ -356,6 +357,7 @@ Check if server is listening for incoming connection on port 5432:
   LISTEN      0             244               127.0.0.1:5432            0.0.0.0:*       
   ...
   ```  
+  
 By default, PostgreSQL Server will start up automatically each time system boots. To disable start on boot:  
   ```
   $ sudo systemctl disable postgresql
@@ -364,6 +366,7 @@ By default, PostgreSQL Server will start up automatically each time system boots
   ```
   $ sudo systemctl enable postgresql
   ```  
+  
 By default, PostgreSQL Server only listens on local loopback interface `127.0.0.1`.  
 To change IP adress(es):  
 - modify file `/etc/postgresql/13/main/postgresql.conf`:  
@@ -382,6 +385,21 @@ To change IP adress(es):
   $ sudo ufw allow from any to any port 5432 proto tcp
   Rule added
   Rule added (v6)
+  ```  
+  
+Set PostgresqL user password:  
+  ```
+  $ sudo passwd postgres
+  ```  
+  
+Access PostgreSQL shell:  
+  ```
+  $ sudo su -l postgres
+  $ psql
+  ```  
+  or, alternatively:  
+  ```
+  $ sudo -u postgres psql
   ```  
 
 
