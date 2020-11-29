@@ -2,7 +2,9 @@
 
 <!-- Comment method 1 -->
 [//]: # (Comment method 2)
-// Comment
+[//]: <> (Comment method 3)
+[//]: # "Comment method 4"
+
 
 
 </br>
