@@ -45,7 +45,7 @@
 
 ## <p align="center">Markdown</p><a name="markdown"></a>
 <details>
-  <summary><b>Content</b></summary>  
+  <summary><h3>Content</h3></summary>  
   
   - [Links](#markdown.links)  
   
