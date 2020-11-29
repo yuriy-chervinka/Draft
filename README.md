@@ -42,10 +42,11 @@
 --------------------------------------------------------------------------------
 
 </br>
+
+## <p align="center">Markdown</p><a name="markdown"></a>
 <details>
-  
-## <summary>Markdown <a name="markdown"></a></summary>
-  
+  <summary>Click to expand!</summary>  
+
 some text
 <!--
 # A collapsible section with markdown
