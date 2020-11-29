@@ -395,6 +395,12 @@ Open your browser and http://[ServerIP_or_domain]/pgadmin4.
   
 __1. Server shell commands__  
   
+- stop server:  
+`$ sudo systemctl stop postgresql`  
+- start server:  
+`$ sudo systemctl start postgresql`  
+- restert server:  
+`$ sudo systemctl restart postgresql`  
 
 
 
