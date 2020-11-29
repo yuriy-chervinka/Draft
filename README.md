@@ -10,6 +10,8 @@
 </br>
 
 ## <p align="center">Table of Contents</p>
+<details>
+  <summary><b>Expand</b></summary>  
 
 - __[Markdown](#markdown)__
   - [Links](#markdown.links)
@@ -38,6 +40,7 @@
 
 
 </br>
+</details>
 
 --------------------------------------------------------------------------------
 
@@ -92,8 +95,6 @@
 
 --------------------------------------------------------------------------------
 
-</br>
-
 ## <p align="center">GIT</p> <a name="git"></a>
 <details>
   <summary><b>Content</b></summary>  
@@ -137,8 +138,6 @@
 </details>
 
 --------------------------------------------------------------------------------
-
-</br>
 
 ## <p align="center">Docker</p> <a name="docker"></a>
 <details>
@@ -299,8 +298,6 @@ Verify that you can run docker commands without sudo:
 </details>
 
 --------------------------------------------------------------------------------
-
-</br>
 
 ## <p align="center">SQL (PostgreSQL)</p> <a name="postgres"></a>
 <details>
