@@ -401,6 +401,10 @@ __1. Server shell commands__
 `$ sudo systemctl start postgresql`  
 - restert server:  
 `$ sudo systemctl restart postgresql`  
+- disable start server on boot:  
+`$ sudo systemctl disable postgresql`  
+- enable start server on boot:  
+`$ sudo systemctl enable postgresql`  
 
 
 
