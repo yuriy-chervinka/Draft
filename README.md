@@ -46,10 +46,19 @@
 
 ## <p align="center">Markdown</p><a name="markdown"></a>
 <details>
-  <summary><b>Content</b></summary>  
+  <summary>Expand</summary>  
   
+  - [Syntax](#markdown.syntax)  
   - [Links](#markdown.links)  
   
+
+
+
+</br>
+
+### Syntax <a name="markdown.syntax"></a>
+
+
 
 
 
@@ -68,7 +77,7 @@
 
 ## <p align="center">Linux</p><a name="linux"></a>
 <details>
-  <summary><b>Content</b></summary>  
+  <summary>Expand</summary>  
   
   - [Commands](#linux.commands)
   - [Links](#linux.links)
@@ -97,7 +106,7 @@
 
 ## <p align="center">GIT</p> <a name="git"></a>
 <details>
-  <summary><b>Content</b></summary>  
+  <summary>Expand</summary>  
   
   - [Installation](#git.install)
   - [Commands](#git.commands)
@@ -141,7 +150,7 @@
 
 ## <p align="center">Docker</p> <a name="docker"></a>
 <details>
-  <summary><b>Content</b></summary>  
+  <summary>Expand</summary>  
 
   - [Installation](#docker.install)
   - [Commands](#docker.commands)
@@ -301,7 +310,7 @@ Verify that you can run docker commands without sudo:
 
 ## <p align="center">SQL (PostgreSQL)</p> <a name="postgres"></a>
 <details>
-  <summary><b>Content</b></summary>  
+  <summary>Expand</summary>  
 
   - [Installation](#postgres.install)
   - [Commands](#postgres.commands)
@@ -313,35 +322,80 @@ Verify that you can run docker commands without sudo:
 </br>
 
 ### Installation <a name="postgres.install"></a>  
-<!---  
+  
 __1. Set up the repository__  
   
-1.1. Update the apt package index, and install packages to allow apt to use a repository over HTTPS:
+1.1. Create the repository configuration file:  
+  ```
+  $ sudo sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt $(lsb_release -cs)-pgdg main" > /etc/apt/sources.list.d/pgdg.list'
+  ```  
+1.2. Import the repository signing key:  
+  ```
+  $ wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
+  ```  
+  
+__2. Install__  
+  
+2.1. Update the apt package index:  
   ```
   $ sudo apt update
-  $ sudo apt install apt-transport-https ca-certificates curl gnupg-agent software-properties-common
   ```  
-1.2. Add Docker’s official GPG key:  
+2.2. Install server, client, contributor extensions, pgadmin:  
   ```
-  $ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -  
-  OK
+  $ sudo apt install postgresql postgresql-client psotgresql-contrib pgadmin4 pgadmin4-apache2
   ```  
-1.3. Verify that you now have the key with the fingerprint 9DC8 5822 9FC7 DD38 854A  E2D8 8D81 803C 0EBF CD88, by searching for the last 8 characters of the fingerprint:  
+  
+__3. Post-installation steps__  
+  
+3.1. Server configuration:  
+Check if server is listening for incoming connection on port 5432:  
   ```
-  $ sudo apt-key fingerprint 0EBFCD88
-  pub   rsa4096 2017-02-22 [SCEA]
-        9DC8 5822 9FC7 DD38 854A  E2D8 8D81 803C 0EBF CD88
-  uid           [ unknown] Docker Release (CE deb) <docker@docker.com>
-  sub   rsa4096 2017-02-22 [S]
+  $ ss -nlt
+  State       Recv-Q        Send-Q        Local Address:Port        Peer Address:Port       Process       
+  LISTEN      0             5                 127.0.0.1:631             0.0.0.0:*       
+  LISTEN      0             244               127.0.0.1:5432            0.0.0.0:*       
+  ...
+  ```  
+By default, PostgreSQL Server will start up automatically each time system boots. To disable start on boot:  
+  ```
+  $ sudo systemctl disable postgresql
+  ```  
+  To disable start on boot:  
+  ```
+  $ sudo systemctl enable postgresql
+  ```  
+By default, PostgreSQL Server only listens on local loopback interface `127.0.0.1`.  
+To change IP adress(es):  
+- open file `/etc/postgresql/13/main/postgresql.conf`  
+- in section `CONNECTIONS AND AUTHENTICATION` uncomment and appropriately modify line `listen_addresses = `  
+- save file and restart postgreSQL:  
+  ```
+  $ sudo systemctl restart postgresql
   ```  
 
---->
 
+
+Connect to remote server:  
+```
+$ psql -h postgre-server -U postgre-user
+```
+
+
+PGADMIN:
+If you have UFW firewall configured, allow http and https traffic.
+
+$ sudo ufw allow http
+$ sudo ufw allow https
+Open your browser and http://[ServerIP_or_domain]/pgadmin4.
 
 
 </br>
 
-### Commands <a name="postgres.commands"></a>
+### Commands <a name="postgres.commands"></a>  
+  
+__1. Server shell commands__  
+  
+
 
 
 
