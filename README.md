@@ -43,10 +43,10 @@
 
 </br>
 <details>
-  <summary>
-## Markdown <a name="markdown"></a>
-  </summary>
-
+  
+## <summary>Markdown <a name="markdown"></a></summary>
+  
+some text
 <!--
 # A collapsible section with markdown
 <details>
@@ -61,6 +61,7 @@
 
 -->
 
+more text
 
 </br>
 </details>
