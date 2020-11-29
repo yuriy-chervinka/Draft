@@ -21,7 +21,7 @@
 - __[GIT](#git)__
   - [Installation](#git.install)
   - [Commands](#git.commands)
-  - [Workflow](#docker.workflow)
+  - [Workflow](#git.workflow)
   - [Links](#git.links)
 
 - __[Docker](#docker)__
@@ -68,7 +68,13 @@
 </br>
 
 ## <p align="center">Linux</p> <a name="linux"></a>
+<details>
+  <summary><b>Content</b></summary>  
+  
+  - [Commands](#linux.commands)
+  - [Links](#linux.links)
 
+  
 
 </br>
 
@@ -86,12 +92,21 @@
 
 
 </br>
+</details>
 
 --------------------------------------------------------------------------------
 
 </br>
 
 ## <p align="center">GIT</p> <a name="git"></a>
+<details>
+  <summary><b>Content</b></summary>  
+  
+  - [Installation](#git.install)
+  - [Commands](#git.commands)
+  - [Workflow](#git.workflow)
+  - [Links](#git.links)
+
 
 
 </br>
@@ -123,13 +138,22 @@
 
 
 </br>
+</details>
 
 --------------------------------------------------------------------------------
 
 </br>
 
 ## <p align="center">Docker</p> <a name="docker"></a>
+<details>
+  <summary><b>Content</b></summary>  
 
+  - [Installation](#docker.install)
+  - [Commands](#docker.commands)
+  - [Workflow](#docker.workflow)
+  - [Links](#docker.links)
+
+  
 
 </br>
 
@@ -276,13 +300,22 @@ Verify that you can run docker commands without sudo:
 
 
 </br>
+</details>
 
 --------------------------------------------------------------------------------
 
 </br>
 
 ## <p align="center">SQL (PostgreSQL)</p> <a name="postgres"></a>
+<details>
+  <summary><b>Content</b></summary>  
 
+  - [Installation](#postgres.install)
+  - [Commands](#postgres.commands)
+  - [Workflow](#postgres.workflow)
+  - [Links](#postgres.links)
+
+  
 
 </br>
 
@@ -338,6 +371,7 @@ __1. Set up the repository__
 
 
 </br>
+</details>
 
 --------------------------------------------------------------------------------
 
