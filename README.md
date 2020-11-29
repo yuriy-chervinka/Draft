@@ -66,9 +66,8 @@
 
 --------------------------------------------------------------------------------
 
-## <p align="center">Linux</p> <a name="linux"></a>
 <details>
-  <summary><b>Content</b></summary>  
+  <summary><p align="center"><h2 style="display:inline;">Linux</h2></p> <a name="linux"></a></summary>  
   
   - [Commands](#linux.commands)
   - [Links](#linux.links)
