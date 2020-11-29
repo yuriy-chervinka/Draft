@@ -23,7 +23,7 @@
   - [Workflow](#docker.workflow)
   - [Links](#docker.links)
 
-- __[PostgreSQL](#postgres)__
+- __[SQL (PostgreSQL)](#postgres)__
   - [Installation](#postgres.install)
   - [Commands](#postgres.commands)
   - [Workflow](#postgres.workflow)
@@ -230,6 +230,14 @@ Verify that you can run docker commands without sudo:
 `$ docker ps [OPTIONS]`  
   - list all:  
   `$ docker ps -a`  
+- remove container:  
+`$ docker rm [OPTIONS] CONTAINER`  
+- remove image:  
+`$ docker rmi [OPTIONS] IMAGE`  
+- stop running container:  
+`$ docker stop [OPTIONS] CONTAINER`  
+- start stopped container:  
+`$ docker start [OPTIONS] CONTAINER`  
 
 
 
@@ -257,14 +265,35 @@ Verify that you can run docker commands without sudo:
 
 </br>
 
-## <p align="center">PostgreSQL</p> <a name="postgres"></a>
+## <p align="center">SQL (PostgreSQL)</p> <a name="postgres"></a>
 
 
 </br>
 
-### Installation <a name="postgres.install"></a>
+### Installation <a name="postgres.install"></a>  
+<!---  
+__1. Set up the repository__  
+  
+1.1. Update the apt package index, and install packages to allow apt to use a repository over HTTPS:
+  ```
+  $ sudo apt update
+  $ sudo apt install apt-transport-https ca-certificates curl gnupg-agent software-properties-common
+  ```  
+1.2. Add Docker’s official GPG key:  
+  ```
+  $ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -  
+  OK
+  ```  
+1.3. Verify that you now have the key with the fingerprint 9DC8 5822 9FC7 DD38 854A  E2D8 8D81 803C 0EBF CD88, by searching for the last 8 characters of the fingerprint:  
+  ```
+  $ sudo apt-key fingerprint 0EBFCD88
+  pub   rsa4096 2017-02-22 [SCEA]
+        9DC8 5822 9FC7 DD38 854A  E2D8 8D81 803C 0EBF CD88
+  uid           [ unknown] Docker Release (CE deb) <docker@docker.com>
+  sub   rsa4096 2017-02-22 [S]
+  ```  
 
-
+--->
 
 
 
