@@ -41,8 +41,6 @@
 
 --------------------------------------------------------------------------------
 
-</br>
-
 ## <p align="center">Markdown</p><a name="markdown"></a>
 <details>
   <summary><b>Content</b></summary>  
@@ -64,8 +62,6 @@
 </details>
 
 --------------------------------------------------------------------------------
-
-</br>
 
 ## <p align="center">Linux</p> <a name="linux"></a>
 <details>
