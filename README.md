@@ -45,7 +45,7 @@
 
 ## <p align="center">Markdown</p><a name="markdown"></a>
 <details>
-  ### <summary>Content</summary>  
+  <summary>Content</summary>  
   - [Links](#markdown.links)
 
 some text
