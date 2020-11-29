@@ -43,17 +43,27 @@
 
 </br>
 <details>
-## <summary><p align="center">Markdown</p> <a name="markdown"></a></summary>
+  <summary>
+## <p align="center">Markdown</p> <a name="markdown"></a></summary>
+  </summary>
 
+<!--
+# A collapsible section with markdown
+<details>
+  <summary>Click to expand!</summary>
+  
+  ## Heading
+  1. A numbered
+  2. list
+     * With some
+     * Sub bullets
+</details>
 
-
-
-
-
+-->
 
 
 </br>
-</details>
+</details>  
 --------------------------------------------------------------------------------
 
 </br>
