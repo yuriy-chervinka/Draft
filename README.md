@@ -44,7 +44,7 @@
 </br>
 <details>
   <summary>
-## <p align="center">Markdown</p> <a name="markdown"></a></summary>
+## Markdown <a name="markdown"></a>
   </summary>
 
 <!--
@@ -63,7 +63,8 @@
 
 
 </br>
-</details>  
+</details>
+
 --------------------------------------------------------------------------------
 
 </br>
