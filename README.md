@@ -1,5 +1,10 @@
 # <p align="center">IT</p>
 
+<!-- Comment method 1 -->
+[//]: # (Comment method 2)
+// Comment
+
+
 </br>
 
 ## <p align="center">Table of Contents</p>
