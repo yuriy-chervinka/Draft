@@ -1,7 +1,7 @@
 # <p align="center">IT</p>
 
 <!-- Comment method 1 -->
-[//]: # (Comment method 2)
+[//]: # (Comment method 2 - the preferable one. + insert empty string before)
 [//]: <> (Comment method 3)
 [//]: # "Comment method 4"
 
@@ -42,8 +42,8 @@
 --------------------------------------------------------------------------------
 
 </br>
-
-## <p align="center">Markdown</p> <a name="markdown"></a>
+<details>
+## <summary><p align="center">Markdown</p> <a name="markdown"></a></summary>
 
 
 
@@ -53,7 +53,7 @@
 
 
 </br>
-
+</details>
 --------------------------------------------------------------------------------
 
 </br>
