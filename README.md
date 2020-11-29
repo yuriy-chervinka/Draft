@@ -14,30 +14,30 @@
   <summary><b>Expand</b></summary>  
 
 - __[Markdown](#markdown)__
-  - [Links](#markdown.links)
-
+<!--  - [Links](#markdown.links)
+-->
 - __[Linux](#linux)__
-  - [Commands](#linux.commands)
+<!--  - [Commands](#linux.commands)
   - [Links](#linux.links)
-
+-->
 - __[GIT](#git)__
-  - [Installation](#git.install)
+<!--  - [Installation](#git.install)
   - [Commands](#git.commands)
   - [Workflow](#git.workflow)
   - [Links](#git.links)
-
+-->
 - __[Docker](#docker)__
-  - [Installation](#docker.install)
+<!--  - [Installation](#docker.install)
   - [Commands](#docker.commands)
   - [Workflow](#docker.workflow)
   - [Links](#docker.links)
-
+-->
 - __[SQL (PostgreSQL)](#postgres)__
-  - [Installation](#postgres.install)
+<!--  - [Installation](#postgres.install)
   - [Commands](#postgres.commands)
   - [Workflow](#postgres.workflow)
   - [Links](#postgres.links)
-
+-->
 
 </br>
 </details>
@@ -66,8 +66,9 @@
 
 --------------------------------------------------------------------------------
 
+## <p align="center">Linux</p><a name="linux"></a>
 <details>
-  <summary><h2 style="display:inline;" align="center">Linux</h2><a name="linux"></a></summary>  
+  <summary><b>Content</b></summary>  
   
   - [Commands](#linux.commands)
   - [Links](#linux.links)
