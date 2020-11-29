@@ -45,7 +45,7 @@
 
 ## <p align="center">Markdown</p><a name="markdown"></a>
 <details>
-  <summary>Click to expand!</summary>  
+  <summary>Content!</summary>  
 
 some text
 <!--
@@ -66,7 +66,7 @@ more text
 
 </br>
 
-### Links <a name="linux.links"></a>
+### Links <a name="markdown.links"></a>
 
 
 
