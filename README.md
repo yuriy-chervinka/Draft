@@ -231,6 +231,10 @@ Verify that you can run docker commands without sudo:
   This message shows that your installation appears to be working correctly.
   ...
   ```  
+Check if docker engine is running:  
+  ```
+  $ sudo systemctl status docker
+  ```  
   
 3.2. Configure Docker to start on boot:  
    ```
@@ -401,22 +405,16 @@ Access PostgreSQL shell:
   ```
   $ sudo -u postgres psql
   ```  
+  
+Connect to remote postgreSQL server:  
+  ```
+  $ psql -h postgre-server -U postgre-user
+  ```  
+  
+Start pgAdmin:  
+  open browser and go to `http://[ServerIP_or_domain]/pgadmin4`  
+  
 
-
-
-
-Connect to remote server:  
-```
-$ psql -h postgre-server -U postgre-user
-```
-
-
-PGADMIN:
-If you have UFW firewall configured, allow http and https traffic.
-
-$ sudo ufw allow http
-$ sudo ufw allow https
-Open your browser and http://[ServerIP_or_domain]/pgadmin4.
 
 
 </br>
@@ -425,6 +423,10 @@ Open your browser and http://[ServerIP_or_domain]/pgadmin4.
   
 __1. Server shell commands__  
   
+- check if PostgreSQL server is running:  
+`$ sudo systemctl status postgresql`  
+- check if apache server is running (required for pgAdmin):  
+`$ sudo systemctl status apache2`  
 - stop server:  
 `$ sudo systemctl stop postgresql`  
 - start server:  
