@@ -346,7 +346,7 @@ __2. Install__
   ```  
 2.2. Install server, client, contributor extensions, pgadmin:  
   ```
-  $ sudo apt install postgresql postgresql-client psotgresql-contrib pgadmin4 pgadmin4-apache2
+  $ sudo apt install postgresql postgresql-client postgresql-contrib pgadmin4 pgadmin4-apache2
   ```  
   
 __3. Post-installation steps__  
