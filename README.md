@@ -17,7 +17,8 @@
 <!--  - [Links](#markdown.links)
 -->
 - __[Linux](#linux)__
-<!--  - [Commands](#linux.commands)
+<!--  - [Workflow](#linux.workflow)
+  - [Commands](#linux.commands)
   - [Links](#linux.links)
 -->
 - __[GIT](#git)__
@@ -79,10 +80,51 @@
 <details>
   <summary>Expand</summary>  
   
-  - [Commands](#linux.commands)
-  - [Links](#linux.links)
-
+  - [Workflow](#linux.workflow)  
+  - [Commands](#linux.commands)  
+  - [Links](#linux.links)  
   
+
+
+
+</br>
+
+### Workflow <a name="linux.workflow"></a>
+
+#### Virtual Environment
+  
+Create Virtual Environment folder vith name 'env':  
+  ```
+  $ python -m venv env
+  ```  
+  
+Activate Virtual Environment:  
+  ```
+  $ source env/bin/activate
+  (env) user_name:path$ 
+  ```  
+  
+Deactivate Virtual Environment:  
+  ```
+  $ deactivate
+  user_name:path$ 
+  ```  
+  
+
+#### SSH
+  
+Generate SSH key:  
+  ```
+  $ ssh-keygen -t rsa
+  ```  
+
+
+
+
+
+$ source <dir_name>/bin/activate
+(dir_name) user@host:~/dir_name$	- virtualenv activated
+
 
 </br>
 
@@ -108,10 +150,10 @@
 <details>
   <summary>Expand</summary>  
   
-  - [Installation](#git.install)
-  - [Commands](#git.commands)
-  - [Workflow](#git.workflow)
-  - [Links](#git.links)
+  - [Installation](#git.install)  
+  - [Commands](#git.commands)  
+  - [Workflow](#git.workflow)  
+  - [Links](#git.links)  
 
 
 
@@ -152,10 +194,10 @@
 <details>
   <summary>Expand</summary>  
 
-  - [Installation](#docker.install)
-  - [Commands](#docker.commands)
-  - [Workflow](#docker.workflow)
-  - [Links](#docker.links)
+  - [Installation](#docker.install)  
+  - [Commands](#docker.commands)  
+  - [Workflow](#docker.workflow)  
+  - [Links](#docker.links)  
 
   
 
@@ -316,10 +358,10 @@ Check if docker engine is running:
 <details>
   <summary>Expand</summary>  
 
-  - [Installation](#postgres.install)
-  - [Commands](#postgres.commands)
-  - [Workflow](#postgres.workflow)
-  - [Links](#postgres.links)
+  - [Installation](#postgres.install)  
+  - [Commands](#postgres.commands)  
+  - [Workflow](#postgres.workflow)  
+  - [Links](#postgres.links)  
 
   
 
