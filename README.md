@@ -362,7 +362,8 @@ Check if docker engine is running:
   - [Commands](#postgres.commands)  
   - [Workflow](#postgres.workflow)  
   - [Links](#postgres.links)  
-
+  
+  - [Installation](#mysql.install)  
   
 
 </br>
@@ -496,6 +497,23 @@ __1. Server shell commands__
 ### Links <a name="postgres.links"></a>
 
 
+
+</br>
+
+### Installation <a name="mysql.install"></a>  
+  
+__1. Install__  
+  
+2.1. Update the apt package index:  
+  ```
+  $ sudo apt update
+  ```  
+2.2. Install server, client, libraries:  
+  ```
+  $ sudo apt upgrade
+  $ sudo apt install mysql-server mysql-client libmysqlclient-dev
+  ```  
+  
 
 
 
