@@ -250,6 +250,10 @@ __2. Install Docker Engine__
   This message shows that your installation appears to be working correctly.
   ...
   ```  
+2.3. Install docker-compose:
+  ```
+  $ sudo apt install docker-compose
+  ```  
   
 __3. Post-installation steps__  
   
